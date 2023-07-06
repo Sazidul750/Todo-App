@@ -18,8 +18,10 @@ export default function TodoAd(props) {
         <p>{description}</p>
         
       </div>
-     
-        <button onClick={()=>{handleClick(id)}} ><FaBitbucket/></button>
+     <div>
+     <button onClick={()=>{handleClick(id)}} ><FaBitbucket/></button>
+     </div>
+       
        
     </div>
   )
