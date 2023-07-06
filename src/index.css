@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+}
+.btn{
+    width: 40%;
+}
+.btn button{
+    border: 2px solid orange;
+    color: rgb(121, 31, 31);
+    border-radius: 50px;
+}
+body{
+    background-color: #9addc9!important;
+   
+}
